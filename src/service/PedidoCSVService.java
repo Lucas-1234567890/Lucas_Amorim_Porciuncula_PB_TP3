@@ -5,8 +5,8 @@ import model.Pedido;
 import java.io.*;
 
 public class PedidoCSVService {
-
-    private static final String PEDIDO_CSV = "data/pedidos.csv";
+    // Aqui as vezes tem que colar o caminho da pasta, estava funcionando com o data\pedidos.csv, mas quando troco de máquina ele não encontra o arquivo
+    private static final String PEDIDO_CSV = "Lucas_Amorim_Porciuncula_PB_TP3-main\\data\\pedidos.csv";
 
     public static void salvarPedido(Pedido pedido) {
         // Garante que o diretório existe
