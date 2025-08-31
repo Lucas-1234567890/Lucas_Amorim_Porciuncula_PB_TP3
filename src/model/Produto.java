@@ -22,3 +22,4 @@ public class Produto {
         return BigDecimal.valueOf(preco);
     }
 }
+
